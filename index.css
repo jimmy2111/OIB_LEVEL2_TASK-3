@@ -1,0 +1,131 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: rgb(71, 224, 224);
+    color: white;
+
+}
+
+header{
+    width: 100%;
+    margin: 0 auto;
+}
+
+header h1{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    color: rgb(4, 29, 29);
+    text-decoration: underline;
+}
+
+#new-task-form{
+    display: flex;
+
+}
+
+#new-task-input{
+    background-color: rgb(97, 186, 216);
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 250px;
+    margin-top: 40px;
+    color: rgb(6, 28, 43);
+    font-size: 35px;
+
+}
+
+#new-task-submit{
+    color: rgb(58, 226, 214);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-weight: 400;
+     cursor: pointer;
+     margin-top: 50px;
+     margin-left: 150px;
+     background-color: rgb(12, 41, 46);
+
+}
+
+#new-task-submit:hover{
+    
+    color: rgb(12,41,46);
+    background-color:rgb(58, 226, 214);
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(1, 24, 24);
+    margin-bottom: 1rem;
+    text-decoration: underline;
+
+}
+
+main{
+        padding: 20px 10px ;
+        width: 500px;
+        margin: 1px auto;
+    
+}
+.task-list{
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+h2{
+    margin-top: 0.1rem;
+}
+#tasks .task{
+   
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(1, 24, 24);
+  padding : 0.5rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+#tasks .task .content{
+    flex: 1 1 0%;
+}
+
+#tasks .task .content .text{
+   color: rgb(17, 58, 61);
+   font-size: 1.125rem;
+   font-weight: 700;
+   width: 95%;
+   display: block;
+   
+}
+
+#tasks .task .actions{
+    display: flex;
+    margin: 0 -0.5rem;
+}
+
+.task .actions button{
+    cursor: pointer;
+    margin: 0 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.4s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.task .actions .edit{
+    color: rgb(59, 195, 223);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.task .actions .edit:hover{
+    color: rgb(65, 18, 132);
+    
+}
